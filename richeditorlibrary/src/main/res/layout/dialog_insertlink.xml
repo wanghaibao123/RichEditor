@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:id="@+id/et_link_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="超链接标题"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+
+    <EditText
+        android:id="@+id/et_link_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="超链接地址"
+        android:text="http://"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+
+</LinearLayout>

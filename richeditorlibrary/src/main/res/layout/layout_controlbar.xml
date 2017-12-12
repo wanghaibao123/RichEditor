@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/ll_morecontrol"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:background="@android:color/background_dark"
+        android:animateLayoutChanges="true"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/action_link"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="链接"
+            android:textSize="12dp"/>
+        <TextView
+            android:id="@+id/action_split"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="分割线"
+            android:textSize="12dp"/>
+        <ImageButton
+            android:id="@+id/action_bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/bold_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_italic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/italic_d"
+            android:layout_weight="1"/>
+
+
+        <ImageButton
+            android:id="@+id/action_strikethrough"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/strikethrough_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_blockquote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/blockquote_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_heading1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/h1_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_heading2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/h2_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_heading3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/h3_d"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/action_heading4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/h4_d"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/background_dark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/action_undo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/undo" />
+
+        <ImageButton
+            android:id="@+id/action_redo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/redo" />
+
+        <TextView
+            android:id="@+id/action_pic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:text="图片" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/action_font"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@null"-->
+            <!--android:contentDescription="@null"-->
+            <!--android:src="@mipmap/font" />-->
+
+        <ImageButton
+            android:id="@+id/action_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:contentDescription="@null"
+            android:src="@mipmap/add" />
+    </LinearLayout>
+
+</LinearLayout>
